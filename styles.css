@@ -1,6 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Body styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    font-family: Calibri, Arial, sans-serif; /* Calibri first, fallback to Arial */
+    background-color: #90EE90; /* Light green background */
     margin: 0;
     padding: 20px;
     color: #333;
@@ -8,7 +13,7 @@ body {
 
 /* Headings */
 h1 {
-    color: darkblue;
+    color: darkgreen; /* Dark green heading for contrast */
     text-align: center;
     margin-bottom: 20px;
 }
@@ -18,24 +23,44 @@ h2, h3 {
     margin-top: 30px;
 }
 
+/* Paragraphs */
+p {
+    font-size: 30px; /* Large font size */
+    line-height: 1.5;
+}
+
 /* Links */
 a {
-    color: blue;
+    color: green;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
-    color: darkblue;
+    color: darkgreen;
 }
 
-/* Text and Lists */
-p, ul {
-    font-size: 16px;
-    line-height: 1.5;
-}
+/* Images */
 img {
     display: block;
     margin: 20px auto;
+    max-width: 100%; /* Responsive images */
 }
+</style>
+</head>
+<body>
+
+<h1>Cascade Style Sheet Demo</h1>
+
+<p>This is a paragraph demonstrating the large font and Calibri style on a green background.</p>
+
+<h2>Subheading Example</h2>
+<p>More text here with the same styling applied.</p>
+
+<a href="#">Example Link</a>
+
+<img src="Welcome.png" alt="Welcome Image">
+
+</body>
+</html>
